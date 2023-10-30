@@ -2,7 +2,7 @@ version: '3'
 
 services:
   writefreely:
-    build: .
+    image: anhgelus/writefreely
     volumes:
       - ./writefreely:/app/writefreely
     ports:

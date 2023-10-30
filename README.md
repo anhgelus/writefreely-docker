@@ -4,9 +4,10 @@ Docker integration of [WriteFreely](https://writefreely.org/about).
 
 ## Installation
 
-1. Clone this repository.
+1. Download `install.sh` and `docker-compose.yml`
 ```bash
-git clone git@github.com:anhgelus/writefreely-docker
+wget https://raw.githubusercontent.com/anhgelus/writefreely-docker/main/install.sh
+wget https://raw.githubusercontent.com/anhgelus/writefreely-docker/main/docker-compose.yml
 ```
 2. Run the installation script
 ```bash
@@ -24,6 +25,6 @@ Select these values:
 
 3. Start the container and enjoy!
 ```bash
-docker compose up -d --build
+docker compose up -d
 ```
 
