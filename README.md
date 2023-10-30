@@ -20,8 +20,10 @@ Select these values:
 - writefreely.db
 - As you want
 - Your login (username, password and blog name)
-- `http://0.0.0.0:80` (very important !)
+- Real address of your blog (e.g. `https://blog.anhgelus.world`) 
 - As you want
+
+:warning: Due to the issue #1 , you also have to modify the file `writefreely/config.ini` by replacing `bind = localhost` with `bind = 0.0.0.0`
 
 3. Start the container and enjoy!
 ```bash
