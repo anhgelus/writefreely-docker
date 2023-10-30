@@ -3,9 +3,11 @@ FROM ubuntu
 
 WORKDIR /app
 
+COPY ./start.sh .
+
 RUN apt update && apt install -y openssl
 
 EXPOSE 80
 
-CMD cd writefreely && ./writefreely
+CMD ["sh","start.sh"] 
 

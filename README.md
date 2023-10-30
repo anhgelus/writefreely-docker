@@ -23,8 +23,6 @@ Select these values:
 - Real address of your blog (e.g. `https://blog.anhgelus.world`) 
 - As you want
 
-:warning: Due to the issue #1 , you also have to modify the file `writefreely/config.ini` by replacing `bind = localhost` with `bind = 0.0.0.0`
-
 3. Start the container and enjoy!
 ```bash
 docker compose up -d
