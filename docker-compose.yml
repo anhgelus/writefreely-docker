@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  writefreely:
+    build: .
+    volumes:
+      - ./writefreely:/app/writefreely
+    ports:
+      - "8080:80"
+
