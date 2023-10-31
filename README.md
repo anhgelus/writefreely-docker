@@ -14,13 +14,13 @@ wget https://raw.githubusercontent.com/anhgelus/writefreely-docker/main/docker-c
 sh install.sh
 ```
 Select these values:
-- Production, standalone
-- As you need (Insecure if WriteFreely is behind traefik)
+- Production, standalone OR Production, behind reverse proxy
+- (If you have selected "Production, standalone") As you need
 - SQLite
 - writefreely.db
 - As you want
 - Your login (username, password and blog name)
-- Real address of your blog (e.g. `https://blog.anhgelus.world`) 
+- Real address of your blog (e.g. `https://blog.anhgelus.world`)
 - As you want
 
 3. Start the container and enjoy!
